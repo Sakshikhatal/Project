@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://t3.ftcdn.net/jpg/02/55/67/62/360_F_255676210_fiOrmx7LosKnQrtNrWPllUrunUkqTuCy.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    max-width: 500px;
+    margin-left:50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 10px 10px 10px  rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: transparent;
+
+    
+}
+.containerN{
+    max-width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 4px 10px 10px 10px  rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 30%;
+}
+h2 {
+    text-align: center;
+}
+
+form input {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#movieList, #seatMap, #confirmationDetails {
+    margin-top: 20px;
+    
+}
